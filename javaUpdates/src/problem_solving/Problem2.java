@@ -1,3 +1,4 @@
+package problem_solving;
 
 public class Problem2 {
 

@@ -1,3 +1,4 @@
+package problem_solving;
 import java.util.Scanner;
 
 public class Problem3 {

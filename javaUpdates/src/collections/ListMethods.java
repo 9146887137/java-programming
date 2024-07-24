@@ -22,7 +22,7 @@ public class ListMethods {
 		System.out.println(list.size());//size of the list
 		System.out.println(list.get(1));//find element with the help of index
 		System.out.println(list.subList(4, 8));//return the element from given index to another index
-		System.out.println(list.stream());//convert pipeline of elements
+		System.out.println(list.stream());//convert pipeline of elements 
 	}
 
 }
