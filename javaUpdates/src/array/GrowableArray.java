@@ -6,7 +6,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class GrowableArray {
 	
-	public static Object[] ele= {};
+	private static Object[] ele= {};
 	static int size=0;
 
 	public static void main(String[] args) {
