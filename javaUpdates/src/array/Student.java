@@ -3,6 +3,7 @@ package array;
 import java.io.Serializable;
 
 import java.util.Comparator;
+import java.util.Objects;
 
 public class Student {
 
@@ -29,10 +30,26 @@ public class Student {
 		// TODO Auto-generated method stub
 		return "name:"+name+" Age:"+age;
 	}
-	
-	public int compareTo(Student o) {
-		//System.out.println("hii");
-		return o.age<this.age?1:o.age>this.age?-1:0;	
-		
+
+
+
+	@Override
+	public int hashCode() {
+		System.out.println("hashcode()");
+		return this.age+this.name.hashCode();
 	}
+
+
+
+	@Override
+	public boolean equals(Object obj) {
+		System.out.println("equals()");
+		Student s=(Student)obj;
+		if(s!=null) {
+			return s.name==this.name&&s.age==this.age;
+		}
+		return false;
+	}
+	
+	
 }

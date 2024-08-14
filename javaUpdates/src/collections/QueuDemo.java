@@ -62,6 +62,8 @@ public class QueuDemo {
 		deque.addFirst(23);
 		deque.addLast(56);
 		
+		deque.add(null);
+		
 		System.out.println(deque.element());
 		System.out.println(deque.peek());
 		System.out.println(deque.pop()); //remove element head of queue

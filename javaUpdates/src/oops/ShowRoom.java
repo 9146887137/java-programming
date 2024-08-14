@@ -1,6 +1,6 @@
 package oops;
 
-public class ShowRoom {
+public final class ShowRoom  extends Villager{
 	
 	/*
 	 * i have one object called Showroom

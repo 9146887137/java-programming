@@ -14,7 +14,6 @@ public class ColorsGrouping {
 		Map<String, List<String>> buckets=colors.stream().collect(Collectors.groupingBy(color->color));
 		System.out.println(buckets);
 		System.out.println(getMaxColorBuckets(buckets));
-		colors.stream().
 	}
 	//find the bucket which has maximum number of color buckets.
 	public static String getMaxColorBuckets(Map<String, List<String>> buckets) {

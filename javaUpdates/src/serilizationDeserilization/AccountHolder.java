@@ -5,6 +5,10 @@ import java.io.Serializable;
 //if i want to make my object Serializable so we implements serializable interface
 public class AccountHolder implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String name;
 	private long adhar;
 	private String email;

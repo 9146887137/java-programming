@@ -1,5 +1,8 @@
 package wrapperclass;
 
+import java.awt.Button;
+import java.awt.Container;
+
 public class WrapperDemo {
 
 	public static void main(String[] args) {
@@ -12,7 +15,7 @@ public class WrapperDemo {
 		Integer i1=i;//this is called auto boxing
 		i=i1;//auto unboxing
 		
-		//parshing
+		//parshing	
 		//convert the primitive type data into string
 		
 		String con=String.valueOf(i);
@@ -25,6 +28,13 @@ public class WrapperDemo {
 		
 		System.out.println("parsed:"+con);
 		System.out.println("unparsed:"+i);
+		
+		Integer integer=10;
+		System.out.println(integer.compareTo(10));
+		System.out.println(integer.doubleValue());
+		String st=Integer.toBinaryString(56);
+		System.out.println(Integer.parseUnsignedInt(st));
+		
 		
 	}
 

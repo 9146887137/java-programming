@@ -22,5 +22,4 @@ public class CopyToAnother {
 		fin.close();
 		fout.close();
 	}
-
 }

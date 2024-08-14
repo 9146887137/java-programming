@@ -17,5 +17,9 @@ public class WriteFile {
 		}
 		fout.close();//close the stream
 	}
+	public void hey() {
+		System.out.println("hii bro");
+		System.out.println(this);
+	}
 
 }
